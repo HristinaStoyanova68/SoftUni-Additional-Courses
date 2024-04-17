@@ -39,7 +39,7 @@ const concatedNumbers = (numbers: number[]): string => {
 
 const aggregateElements2 = (numbers: number[]): void => {
   const sum: number = sumNumbers(numbers);
-  const invertSum = sumNumbers(numbers, true);
+  const invertSum: number = sumNumbers(numbers, true);
   const concatedNums: string = concatedNumbers(numbers);
 
   console.log(sum);
