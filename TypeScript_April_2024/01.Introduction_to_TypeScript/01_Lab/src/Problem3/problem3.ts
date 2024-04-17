@@ -1,4 +1,4 @@
-function sumOfNumbers(n: string, m: string): number {
+function sumOfNumbers(n: string, m: string): void {
 
     let nAsNumber = Number(n);
     let mAsNumber = Number(m);
@@ -9,8 +9,6 @@ function sumOfNumbers(n: string, m: string): number {
     }
 
     console.log(sum);
-    
-    return;
 }
 
 sumOfNumbers('1', '5');
