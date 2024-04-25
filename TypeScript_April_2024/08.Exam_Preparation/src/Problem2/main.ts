@@ -35,3 +35,4 @@ const input = ['Sample Town | Sample Product | 1000',
 'New York | Burger | 10'];
 
 getLowestPrices(input);
+
