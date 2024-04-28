@@ -17,8 +17,8 @@ function townsObj(towns: string[]): void {
 
     for (const townData of towns) {
         const [townName, townLatitude, townLongitude] = townData.split(' | ');
-        const townLatitudeAsStr = Number(townLatitude).toFixed(2).toString();
-        const townLongitudeAsStr = Number(townLongitude).toFixed(2).toString();
+        const townLatitudeAsStr = Number(townLatitude).toFixed(2);
+        const townLongitudeAsStr = Number(townLongitude).toFixed(2);
 
         const currTown = createTown(townName, townLatitudeAsStr, townLongitudeAsStr);
         townsArray.push(currTown);
